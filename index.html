@@ -2,123 +2,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join Our WhatsApp Communities</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<title>Decathlon BGT Communities</title>
 
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background: #ffffff;
-            margin: 0;
-            padding: 40px 20px;
-        }
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-        .container{
-            max-width: 800px;
-            margin: auto;
-            background: #3643BA;
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-            text-align: center;
-        }
+<style>
 
-        h1{
-            color: white;
-            font-size: 42px;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        p{
-            color: white;
-            font-size: 20px;
-            margin-bottom: 30px;
-        }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#ffffff;
+    padding:40px 20px;
+}
 
-        hr{
-            border: none;
-            height: 2px;
-            background: rgba(255,255,255,0.5);
-            margin: 25px auto;
-            width: 90%;
-        }
+.container{
+    max-width:850px;
+    margin:auto;
+    background:#3643BA;
+    border-radius:20px;
+    padding:40px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
 
-        .btn{
-            display:flex;
-            align-items:center;
-            justify-content:space-between;
-            width:90%;
-            margin:16px auto;
-            padding:20px 25px;
-            color:white;
-            text-decoration:none;
-            border:2px solid rgba(255,255,255,0.9);
-            border-radius:12px;
-            background:transparent;
-            font-size:22px;
-            font-weight:600;
-            transition: all 0.3s ease;
-        }
+h1{
+    color:white;
+    font-size:48px;
+    font-weight:700;
+}
 
-        .btn:hover{
-            background:rgba(255,255,255,0.1);
-            transform: translateY(-2px);
-        }
+hr{
+    border:none;
+    height:2px;
+    width:90%;
+    margin:25px auto;
+    background:rgba(255,255,255,0.5);
+}
 
-        .left,
-        .right{
-            font-size:32px;
-            width:50px;
-            text-align:center;
-        }
+.subtitle{
+    color:white;
+    font-size:22px;
+    margin-bottom:25px;
+}
 
-        .text{
-            flex:1;
-            text-align:left;
-            padding:0 20px;
-        }
+.btn{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    text-decoration:none;
+    color:white;
 
-        .divider{
-            width:2px;
-            height:50px;
-            background:rgba(255,255,255,0.7);
-        }
+    width:90%;
+    margin:14px auto;
+    padding:18px 24px;
 
-        .fa-whatsapp{
-            color:#25D366;
-            font-size:32px;
-        }
+    border:2px solid rgba(255,255,255,0.85);
+    border-radius:14px;
 
-        .footer{
-            color:white;
-            margin-top:35px;
-            font-size:18px;
-        }
-    </style>
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:rgba(255,255,255,0.08);
+}
+
+.left,
+.right{
+    width:45px;
+    text-align:center;
+    font-size:30px;
+}
+
+.divider{
+    width:2px;
+    height:40px;
+    background:rgba(255,255,255,0.7);
+}
+
+.text{
+    flex:1;
+    text-align:left;
+    padding:0 18px;
+    font-size:24px;
+    font-weight:600;
+}
+
+.fa-whatsapp{
+    color:#25D366;
+}
+
+.footer{
+    color:white;
+    margin-top:25px;
+    font-size:18px;
+}
+
+/* ========================= */
+/* MOBILE VERSION */
+/* ========================= */
+
+@media screen and (max-width:600px){
+
+    body{
+        padding:10px;
+    }
+
+    .container{
+        padding:18px;
+        border-radius:16px;
+    }
+
+    h1{
+        font-size:28px;
+        line-height:1.2;
+    }
+
+    hr{
+        margin:15px auto;
+    }
+
+    .subtitle{
+        font-size:16px;
+        margin-bottom:15px;
+    }
+
+    .btn{
+        width:100%;
+        margin:8px 0;
+        padding:12px;
+        border-radius:10px;
+    }
+
+    .left,
+    .right{
+        width:28px;
+        font-size:20px;
+    }
+
+    .divider{
+        height:24px;
+        margin:0 8px;
+    }
+
+    .text{
+        font-size:16px;
+        padding:0 8px;
+    }
+
+    .footer{
+        font-size:13px;
+        margin-top:15px;
+    }
+}
+
+</style>
 </head>
 
 <body>
 
 <div class="container">
 
-    <h1>Join Our WhatsApp Communities</h1>
+    <h1>🏃 Decathlon BGT Communities</h1>
 
     <hr>
 
-    <p>Click to join</p>
+    <div class="subtitle">Click to join</div>
 
     <a class="btn" href="https://chat.whatsapp.com/Fl7CWmAapnAABEVCoC3g81" target="_blank">
         <span class="left">🏃</span>
         <span class="divider"></span>
         <span class="text">Run Club - BGT</span>
         <span class="divider"></span>
-        <span class="right">
-            <i class="fa-brands fa-whatsapp"></i>
-        </span>
+        <span class="right"><i class="fa-brands fa-whatsapp"></i></span>
     </a>
 
     <a class="btn" href="https://chat.whatsapp.com/ChvQY4XxPGx3sFdUXa75Ni" target="_blank">
@@ -126,9 +189,7 @@
         <span class="divider"></span>
         <span class="text">Cycling Club - BGT</span>
         <span class="divider"></span>
-        <span class="right">
-            <i class="fa-brands fa-whatsapp"></i>
-        </span>
+        <span class="right"><i class="fa-brands fa-whatsapp"></i></span>
     </a>
 
     <a class="btn" href="https://chat.whatsapp.com/FAKj8k9G50SBVxtNGG3TyO?s=cl&p=i&ilr=1" target="_blank">
@@ -136,9 +197,7 @@
         <span class="divider"></span>
         <span class="text">Cricket Club - BGT</span>
         <span class="divider"></span>
-        <span class="right">
-            <i class="fa-brands fa-whatsapp"></i>
-        </span>
+        <span class="right"><i class="fa-brands fa-whatsapp"></i></span>
     </a>
 
     <a class="btn" href="https://chat.whatsapp.com/ChvQY4XxPGx3sFdUXa75Ni" target="_blank">
@@ -146,9 +205,7 @@
         <span class="divider"></span>
         <span class="text">Aqua Club - BGT</span>
         <span class="divider"></span>
-        <span class="right">
-            <i class="fa-brands fa-whatsapp"></i>
-        </span>
+        <span class="right"><i class="fa-brands fa-whatsapp"></i></span>
     </a>
 
     <a class="btn" href="https://chat.whatsapp.com/H942rhptsxnJ3rUHwSu3D3?mode=wwt" target="_blank">
@@ -156,9 +213,7 @@
         <span class="divider"></span>
         <span class="text">Skaters Community - BGT</span>
         <span class="divider"></span>
-        <span class="right">
-            <i class="fa-brands fa-whatsapp"></i>
-        </span>
+        <span class="right"><i class="fa-brands fa-whatsapp"></i></span>
     </a>
 
     <a class="btn" href="https://chat.whatsapp.com/HWMC7PbIOJhFcNX56xRMGp" target="_blank">
@@ -166,9 +221,7 @@
         <span class="divider"></span>
         <span class="text">Trekking Community - BGT</span>
         <span class="divider"></span>
-        <span class="right">
-            <i class="fa-brands fa-whatsapp"></i>
-        </span>
+        <span class="right"><i class="fa-brands fa-whatsapp"></i></span>
     </a>
 
     <div class="footer">
