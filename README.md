@@ -1,1 +1,1 @@
-# DecathlonWhatsapp
+# Bgt Decathlon-Whatsapp-Community
